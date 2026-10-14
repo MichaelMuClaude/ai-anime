@@ -35,6 +35,10 @@ node bin/ai-anime.mjs render examples/walk.json -o out/walk.mp4
 
 Rendering needs Remotion's bundled ffmpeg, which `npm install` provides.
 
+## Remotion is not vendored
+
+Never copy Remotion code, binaries, or the `node_modules` folder into this repository. Its licence forbids relicensing or sublicensing copies of it. Dependencies come from npm through `setup`.
+
 ## Rules for changes
 
 - One change per pull request, with tests for each validation rule.

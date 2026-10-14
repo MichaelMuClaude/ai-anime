@@ -17,10 +17,15 @@ node bin/ai-anime.mjs render examples/walk.json -o out/walk.mp4
 
 See `examples/walk.json` for a walking character with a bobbing head.
 
-## Requirements
+## Setup
 
-- Node.js 20 or newer
-- Remotion, installed with `npm install`. It includes the ffmpeg it needs.
+```bash
+node bin/ai-anime.mjs setup
+```
+
+This checks for Node.js 20 or newer, runs `npm install` (which downloads Remotion from npm), and prints Remotion's licence notice. Remotion includes the ffmpeg it needs.
+
+Remotion is not included in this repository. Its licence does not allow copying its code into other projects, so each user installs it from npm.
 
 ## Licence
 
