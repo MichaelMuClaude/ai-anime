@@ -1,0 +1,22 @@
+{
+  "name": "ai-anime",
+  "version": "0.1.0",
+  "description": "Draw simple cartoon characters as layered SVG and animate them into a video with Remotion, for AI agents",
+  "type": "module",
+  "license": "MIT",
+  "bin": { "ai-anime": "bin/ai-anime.mjs" },
+  "scripts": {
+    "test": "node --test \"tests/*.test.mjs\"",
+    "studio": "remotion studio src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}
